@@ -1,0 +1,39 @@
+
+.seccion {
+    width: 800px;
+    margin: 0 auto;
+
+
+    &__title {
+        color: $color-primario;
+        font-size: 30px;
+
+        &:hover {
+            color: $color-primario-alt;
+        }
+
+        &::after {
+            content: '';
+            width: 150px;
+            height: 3px;
+            background-color: $color-primario;
+            display: block;
+            margin-top: 10px;
+        }
+
+        span {
+            font-size: 40px;
+        }
+    }
+
+    &__text {
+        color:$color-primario-alt(53, 111, 53);
+        font-size: 18px;
+    }
+
+    &__text--alt {
+        color: $color-primario-alt;
+        font-size: 15px;
+        font-family: $font-title;
+    }
+}

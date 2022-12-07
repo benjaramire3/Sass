@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 1.6rem;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  li {
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Nerko One", cursive;
+  }
+  
+  .header {
+    background-color: rgb(3, 34, 34);
+    padding: 20px 0;
+  }
+  .header .header__container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(245, 238, 220, 0.942);
+  }
+  .header .header__container .header__title {
+    font-size: 40px;
+    text-decoration: underline;
+  }
+  .header .header__container .header__title:hover {
+    color: rgb(8, 54, 54);
+    background-color: rgba(245, 238, 220, 0.942);
+  }
+  .header .header__container .navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .header .header__container .navbar .navbar__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(245, 238, 220, 0.942);
+    font-weight: 700;
+    font-size: 20px;
+    padding: 8px 16px;
+  }
+  .header .header__container .navbar .navbar__link:hover {
+    background-color: rgba(245, 238, 220, 0.942);
+    color: rgb(5, 46, 46);
+  }
+  
+  .footer {
+    background-color: rgba(6, 81, 81, 0.721);
+    padding: 40px 0;
+  }
+  .footer .footer__container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .footer .footer__container h4 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    color: rgba(245, 238, 220, 0.942);
+  }
+  
+  .seccion {
+    width: 800px;
+    margin: 0 auto;
+  }
+  .seccion__title {
+    color: rgb(5, 46, 46);
+    font-size: 30px;
+  }
+  .seccion__title:hover {
+    color: rgba(6, 81, 81, 0.721);
+  }
+  .seccion__title::after {
+    content: "";
+    width: 150px;
+    height: 3px;
+    background-color: rgb(5, 46, 46);
+    display: block;
+    margin-top: 10px;
+  }
+  .seccion__title span {
+    font-size: 40px;
+  }
+  .seccion__text {
+    color: rgba(6, 81, 81, 0.721) 53, 111, 53;
+    font-size: 18px;
+  }
+  .seccion__text--alt {
+    color: rgba(6, 81, 81, 0.721);
+    font-size: 15px;
+    font-family: "Nerko One", cursive;
+  }
+  
+  /*# sourceMappingURL=styles.css.map */

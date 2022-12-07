@@ -1,0 +1,22 @@
+
+
+.footer {
+    background-color: $color-primario-alt;
+    padding: 40px 0;
+    
+
+    .footer__container {
+        $color-footer: green;
+
+        max-width: 900px;
+        margin: 0 auto;
+
+        h4 {
+            text-transform: uppercase;
+            text-align: center;
+            // color: $color-footer;
+            font-size: 24px;
+            color: $color-secundario;
+        }
+    }
+}
